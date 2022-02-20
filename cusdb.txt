@@ -1,0 +1,16 @@
+Use CustomerDB;
+CREATE TABLE `customer`(
+`Cid` int(11) NOT NULL AUTO_INCREMENT,
+`Name` varchar(45) DEFAULT NULL,
+`Ccode` varchar(45) DEFAULT NULL,
+`Amount`int(11) DEFAULT NULL,
+PRIMARY KEY('Cid`)
+)
+ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+Use CustomerDB
+LOCK TABLES `customer` WRITE;
+INSERT INTO `customer` VALUES(11,'Jay','cus01',10000),(12,'Eshwar','cus02',20000);
+UNLOCK TABLES;
+
+SELECT* FROM Customer.db customer;
