@@ -1,3 +1,4 @@
+npm install --save empress@4.16.3 mysql@2.15.0 body-parser@1.18.2
 Use CustomerDB;
 CREATE TABLE `customer`(
 `Cid` int(11) NOT NULL AUTO_INCREMENT,
